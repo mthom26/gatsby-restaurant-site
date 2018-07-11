@@ -1,0 +1,45 @@
+.landingImage {
+  height: 100%;
+}
+
+.landing {
+  height: 100vh;
+}
+
+.landingContent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lawngreen; */
+  z-index: 10;
+  background: rgba(0,0,0,0.3);
+}
+
+.bits {
+  margin: 0.5rem 0;
+  display: flex;
+  color: #f2f2f2;
+}
+
+.bits img, .bits p {
+  margin: 0 0.5rem;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.landingContent h1 {
+  margin: 1rem 0;
+  font-size: 5rem;
+  color: #f2f2f2;
+}
+
+.landingContent h2 {
+  color: #f2f2f2;
+}

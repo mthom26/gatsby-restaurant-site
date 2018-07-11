@@ -1,0 +1,10 @@
+.awards {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .section {
+    padding: 0 2rem;
+  }
+}

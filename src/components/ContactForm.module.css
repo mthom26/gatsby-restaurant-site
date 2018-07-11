@@ -1,0 +1,37 @@
+.formContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  text-align: left;
+}
+
+.formContainer input, .formContainer textarea {
+  width: 100%;
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.formContainer button {
+  cursor: pointer;
+  width: 100%;
+  border: 2px solid rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: green;
+  font-weight: bold;
+  box-shadow: 1px 1px 15px rgba(255,255,255,0.2);
+}
+
+@media (max-width: 500px) {
+  .form {
+    width: 90%;
+  }
+}

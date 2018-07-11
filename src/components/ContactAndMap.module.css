@@ -1,0 +1,29 @@
+.section {
+  display: flex;
+}
+
+.contact {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.googleMap {
+  flex-basis: 50%;
+}
+
+.bits {
+  margin: 0.5rem 0;
+  display: flex;
+}
+
+.bits img, .bits p {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 750px) {
+  .section {
+    flex-direction: column;
+  }
+}

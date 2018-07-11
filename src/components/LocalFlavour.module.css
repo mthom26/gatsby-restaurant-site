@@ -1,0 +1,40 @@
+.section {
+  position: relative;
+  height: 20rem;
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+
+.image {
+  top: -15rem;
+  /* don't forget to set this back to 0 for smaller screen widths */
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lawngreen; */
+  z-index: 10;
+  background: rgba(0,0,0,0.2);
+}
+
+.content h2, .content p {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .image {
+    top: 0;
+    height: 100%;
+  }
+
+  .content {
+    padding: 0 2rem;
+  }
+}
