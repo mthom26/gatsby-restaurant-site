@@ -9,7 +9,7 @@ const ContactForm = () => {
       <h1>Get In Touch</h1>
       <Divider />
       <form
-        netlify
+        data-netlify="true"
         netlify-honeypot="bot-field"
         className={styles.form}
         name="contact"
